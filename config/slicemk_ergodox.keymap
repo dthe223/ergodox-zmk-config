@@ -4,6 +4,10 @@
 #include <dt-bindings/zmk/outputs.h>
 
 
+&mt {
+    tapping-term-ms = <1000>;
+};
+
 
 / {
 	keymap {
